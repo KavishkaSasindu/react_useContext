@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-inner {
+  width: 100%;
+  height: 60px;
+}
+
+.navbar-outer {
+  width: 90%;
+  height: 50px;
+  border: 1px solid red;
+}
