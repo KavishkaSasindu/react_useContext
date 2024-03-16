@@ -6,10 +6,27 @@
 .navbar-inner {
   width: 100%;
   height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar-outer {
   width: 90%;
   height: 50px;
   border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-items > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul > li {
+  margin-left: 10px;
 }
